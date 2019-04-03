@@ -6,7 +6,7 @@ PKG_RELEASE:=1
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/iprange-$(PKG_VERSION)
 PKG_SOURCE:=iprange-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=https://github.com/firehol/iprange/releases/download/$(PKG_VERSION)/
+PKG_SOURCE_URL:=https://github.com/firehol/iprange/releases/download/v$(PKG_VERSION)/
 PKG_MD5SUM:=57aa040ea96b87afe8401a524e32ab82
 PKG_CAT:=bzcat
 
