@@ -1,13 +1,13 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=iprange
-PKG_VERSION:=<<VER>>
+PKG_VERSION:=1.0.4
 PKG_RELEASE:=1
 
 PKG_BUILD_DIR:=$(BUILD_DIR)/iprange-$(PKG_VERSION)
 PKG_SOURCE:=iprange-$(PKG_VERSION).tar.bz2
-PKG_SOURCE_URL:=<<URL>>
-PKG_MD5SUM:=<<MD5>>
+PKG_SOURCE_URL:=https://github.com/firehol/iprange/releases/download/$(PKG_VERSION)/
+PKG_MD5SUM:=57aa040ea96b87afe8401a524e32ab82
 PKG_CAT:=bzcat
 
 include $(INCLUDE_DIR)/package.mk
