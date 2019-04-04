@@ -1,2 +1,2 @@
-# openwrt_packages
-None official OpenWRT packages, used my self
+# openwrt_feeds
+None official OpenWRT package feeds, used my self
